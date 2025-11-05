@@ -4,10 +4,10 @@
 --------
 Prepared by:
 
-* `<author1>`,`<organization>`
-* `<author1>`,`<organization>`
-* `<author1>`,`<organization>`
-* `<author1>`,`<organization>`
+* `<McAlister Marshall>`,`<WPI>`
+* `<Jake Claybrook>`,`<WPI>`
+* `<Vanessa Villalba Simon>`,`<WPI>`
+* `<Jace Howhenesian>`,`<WPI>`
 
 ---
 
@@ -43,23 +43,56 @@ Prepared by:
 
 Provide a short description of the software being specified. Describe its purpose, including relevant benefits, objectives, and goals.
 
+This software is used to conect WPI faculty members to students who are looking for undergraduate research. The benefits for this software will increase student interaction between faculty and undergraduates and give students the oppertuity to do research while still in school. The goal of this software is to streamline the discorvery and application process for students to apply for research. This will reduce the time that professors spend looking for students, and make it much easier for students to apply.
+
 ----
 # 2. Requirements Specification
 
 This section specifies the software product's requirements. Specify all of the software requirements to a level of detail sufficient to enable designers to design a software system to satisfy those requirements, and to enable testers to test that the software system satisfies those requirements.
 
+students can create a profile and enter their contact information, completed
+coursework, research interests, and other qualifications,
+faculty can advertise research opportunities for undergraduate students,
+students can apply for research positions,
+faculty can select the candidates that they would like to interview for the position.
+The application should feature two main sections—a Student Page and a Faculty Page—each
+offering customized options for creating profiles, posting opportunities, and managing
+applications.
+
+
 ## 2.1 Customer, Users, and Stakeholders
 
 A brief description of the customer, stakeholders, and users of your software.
+The customers of our s
 
 ----
 ## 2.2 User Stories
 This section will include the user stories you identified for your project. Make sure to write your user stories in the form : 
 "As a **[Role]**, I want **[Feature]** so that **[Reason/Benefit]** "
+Students:
+1. As a faculty, I want to post my research oppertuniites to the software so that users have easy access to the research
+2. As a student, I want to create an account and enter my personal information so that the faculty can evaluate my qualifications
+3. As a student, I want to edit my profile after creating it so that I can make any relevant changes and keep my academic information up to date
+4. As a student, I want to log in using my WPI email/password or Auth0 SSO so that I can access my account securely.
+5. As a student, I want to view all research positions posted by faculty so that I can browse opportunities.
+6. As a student, I want to click a position and view full details so that I understand requirements and expectations.
+7. As a student, I want the system to recommend positions that match my profile so that I don’t have to manually search through everything.
+8. As a student, I want to submit a short statement with my application so that the faculty understands my motivation.
+9. As a student, I want to track the status of all of my applications so that I know if they are pending, approved, or rejected.
+10. As a student, I want to withdraw my pending application so that I can stop pursuing positions I am no longer interested in.
 
-1. User story 1
-2. User story 2
-3. User story 3
+Faculty:
+1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+
+
 
 ----
 ## 2.3 Use Cases
