@@ -50,15 +50,14 @@ This software is used to conect WPI faculty members to students who are looking 
 
 This section specifies the software product's requirements. Specify all of the software requirements to a level of detail sufficient to enable designers to design a software system to satisfy those requirements, and to enable testers to test that the software system satisfies those requirements.
 
-students can create a profile and enter their contact information, completed
-coursework, research interests, and other qualifications,
-faculty can advertise research opportunities for undergraduate students,
-students can apply for research positions,
-faculty can select the candidates that they would like to interview for the position.
+The software will allow students to create a profile and enter their contact information, completed
+coursework, research interests, and other qualifications, as well as apply for research positions,
+
+The software will allow faculty to select the candidates that they would like to interview for the position. faculty can also advertise research opportunities for undergraduate students,
+
 The application should feature two main sections—a Student Page and a Faculty Page—each
 offering customized options for creating profiles, posting opportunities, and managing
 applications.
-
 
 ## 2.1 Customer, Users, and Stakeholders
 
