@@ -70,7 +70,7 @@ The customers of our s
 This section will include the user stories you identified for your project. Make sure to write your user stories in the form : 
 "As a **[Role]**, I want **[Feature]** so that **[Reason/Benefit]** "
 Students:
-1. As a faculty, I want to post my research oppertuniites to the software so that users have easy access to the research
+1. As a faculty, I want to post my research oppertunities to the software so that users have easy access to the research
 2. As a student, I want to create an account and enter my personal information so that the faculty can evaluate my qualifications
 3. As a student, I want to edit my profile after creating it so that I can make any relevant changes and keep my academic information up to date
 4. As a student, I want to log in using my WPI email/password or Auth0 SSO so that I can access my account securely.
@@ -145,7 +145,11 @@ You may use Figma to design your interface:
 ----
 # 4. Product Backlog - Jake
 
-Here you should include a link to your GitHub repo issues page, i.e., your product backlog. Make sure to create an issue for each user story.  
+Here you should include a link to your GitHub repo issues page, i.e., your product backlog. Make sure to create an issue for each user story.
+
+Issue Page Link:
+https://github.com/jclaybrook04/CS3733-Term-Project-Team-RouteRunners/issues
+
 
 ----
 # 5. References
