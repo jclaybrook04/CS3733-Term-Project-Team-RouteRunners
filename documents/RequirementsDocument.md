@@ -83,20 +83,25 @@ Students:
 10. As a student, I want to withdraw my pending application so that I can stop pursuing positions I am no longer interested in.
 
 Faculty:
-1. 
-2. 
-3. 
-4. 
-5. 
-6. 
-7. 
-8. 
-9. 
+1. As a faculty member, I want to activate my account from the preloaded list so that I can start using the system.
+2. As a faculty member, I want to confirm my identity via email verification so that the system knows I am a real WPI faculty member.
+3. As a faculty member, I want to log in with WPI email/password or SSO so that I can securely access my faculty dashboard.
+4. As a faculty member, I want to view my own profile so that I can confirm my information.
+5. As a faculty member, I want to approve or reject recommendation requests from students so that I can support or decline their application.
+6. As a faculty member, I want to create one or more research positions so that I can find undergraduate students for my projects.
+7. As a faculty member, I want to specify required major(s), GPA, topics, languages, and courses so that the right students apply.
+8. As a faculty member, I want to add, edit, or remove items from predefined lists (topics, languages, majors, etc.) so that the system remains accurate.
+9. As a faculty member, I want to view all students who applied to my positions so that I can review candidates.
+10. As a faculty member, I want to view the academic profile of an applicant so that I can evaluate their fit.
+11. As a faculty member, I want to approve student applications so that I can recruit students for the position.
+12. As a faculty member, I want to reject student applications so that I can filter out unqualified or mismatched candidates.
+
+
 
 
 
 ----
-## 2.3 Use Cases
+## 2.3 Use Cases -Mcalister
 
 This section will include the specification for your project in the form of use cases. 
 
@@ -128,7 +133,7 @@ You may use the following table template for your use cases. Copy-paste this tab
 | Iteration #         | "enter your reponse here"  |
 
 ----
-# 3. User Interface
+# 3. User Interface -
 
 Here you should include the sketches or mockups for the main parts of the interface.
 You may use Figma to design your interface:
@@ -139,7 +144,7 @@ You may use Figma to design your interface:
   </kbd>
   
 ----
-# 4. Product Backlog
+# 4. Product Backlog - Jake
 
 Here you should include a link to your GitHub repo issues page, i.e., your product backlog. Make sure to create an issue for each user story.  
 
