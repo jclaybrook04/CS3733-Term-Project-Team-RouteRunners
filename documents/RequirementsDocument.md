@@ -141,6 +141,17 @@ You may use Figma to design your interface:
   Example image. The image file is in the `./images` directory.
   <kbd>
       <img src="images/figma.jpg"  border="2">
+      <img src="images/User Interface/Home.png">
+      <img src="images/User Interface/Research Opportunties.png">
+      <img src="images/User Interface/Register.png">
+      <img src="images/User Interface/Student Login.png">
+      <img src="images/User Interface/Student Page.png">
+      <img src="images/User Interface/Student Profile.png">
+      <img src="images/User Interface/Student Edit Profile.png">
+      <img src="images/User Interface/Faculty Login.png">
+      <img src="images/User Interface/Faculty Page.png">
+      <img src="images/User Interface/Faculty Profile.png">
+      <img src="images/User Interface/Faculty Edit Profile.png">
   </kbd>
   
 ----
