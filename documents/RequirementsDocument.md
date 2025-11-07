@@ -4,10 +4,10 @@
 --------
 Prepared by:
 
-* `<author1>`,`<organization>`
-* `<author1>`,`<organization>`
-* `<author1>`,`<organization>`
-* `<author1>`,`<organization>`
+* `<McAlister Marshall>`,`<WPI>`
+* `<Jake Claybrook>`,`<WPI>`
+* `<Vanessa Villalba Simon>`,`<WPI>`
+* `<Jace Howhenesian>`,`<WPI>`
 
 ---
 
@@ -43,23 +43,56 @@ Prepared by:
 
 Provide a short description of the software being specified. Describe its purpose, including relevant benefits, objectives, and goals.
 
+This software is used to conect WPI faculty members to students who are looking for undergraduate research. The benefits for this software will increase student interaction between faculty and undergraduates and give students the oppertuity to do research while still in school. The goal of this software is to streamline the discorvery and application process for students to apply for research. This will reduce the time that professors spend looking for students, and make it much easier for students to apply.
+
 ----
 # 2. Requirements Specification
 
 This section specifies the software product's requirements. Specify all of the software requirements to a level of detail sufficient to enable designers to design a software system to satisfy those requirements, and to enable testers to test that the software system satisfies those requirements.
 
+
+The software will allow students to create a profile and enter their contact information, completed
+coursework, research interests, and other qualifications, as well as apply for research positions.
+
+The software will allow faculty to select the candidates that they would like to interview for the position. faculty can also advertise research opportunities for undergraduate students,
+
+The application should feature two main sections—a Student Page and a Faculty Page—each
+offering customized options for creating profiles, posting opportunities, and managing
+applications.
+
 ## 2.1 Customer, Users, and Stakeholders
 
 A brief description of the customer, stakeholders, and users of your software.
+The customers of our s
 
 ----
 ## 2.2 User Stories
 This section will include the user stories you identified for your project. Make sure to write your user stories in the form : 
 "As a **[Role]**, I want **[Feature]** so that **[Reason/Benefit]** "
+Students:
+1. As a faculty, I want to post my research oppertuniites to the software so that users have easy access to the research
+2. As a student, I want to create an account and enter my personal information so that the faculty can evaluate my qualifications
+3. As a student, I want to edit my profile after creating it so that I can make any relevant changes and keep my academic information up to date
+4. As a student, I want to log in using my WPI email/password or Auth0 SSO so that I can access my account securely.
+5. As a student, I want to view all research positions posted by faculty so that I can browse opportunities.
+6. As a student, I want to click a position and view full details so that I understand requirements and expectations.
+7. As a student, I want the system to recommend positions that match my profile so that I don’t have to manually search through everything.
+8. As a student, I want to submit a short statement with my application so that the faculty understands my motivation.
+9. As a student, I want to track the status of all of my applications so that I know if they are pending, approved, or rejected.
+10. As a student, I want to withdraw my pending application so that I can stop pursuing positions I am no longer interested in.
 
-1. User story 1
-2. User story 2
-3. User story 3
+Faculty:
+1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+
+
 
 ----
 ## 2.3 Use Cases
@@ -92,6 +125,302 @@ You may use the following table template for your use cases. Copy-paste this tab
 | Flow of events | "enter your reponse here"  |
 | Alternative flow of events    | "enter your reponse here"  |
 | Iteration #         | "enter your reponse here"  |
+
+| Use case # 1      |   |
+| ------------------ |--|
+| Name              | "create student account and profile"  |
+| Participating actor  | "student"  |
+| Entry condition(s)     | "student has a valid wpi email"  |
+| Exit condition(s)           | "profile is created"  |
+| Flow of events | "1. Student prompts software to create account
+                    2. Software brings up registration form
+                    3. student fills out all fields"
+                    4. software validates fields 
+                    5. student submits forms |
+| Alternative flow of events    | "field filled out incorrectly, software flags error message
+                                   email is already in use, notifies the user with an error message"  |
+| Iteration #         | "1"  |
+
+| Use case # 2      |   |
+| ------------------ |--|
+| Name              | "edit student profile"  |
+| Participating actor  | "student"  |
+| Entry condition(s)     | "student has a valid wpi email and is logged into their account"  |
+| Exit condition(s)           | "edits are completed"  |
+| Flow of events | "1. Student prompts software to enter edit profile
+                    2. Software brings up profile edit form
+                    3. student fills out neccessary fields"
+                    4. software validates fields 
+                    5. student submits forms |
+| Alternative flow of events    | "field filled out incorrectly, software flags error message"  |
+| Iteration #         | "1"  |
+
+| Use case # 3      |   |
+| ------------------ |--|
+| Name              | "student login"  |
+| Participating actor  | "student"  |
+| Entry condition(s)     | "student has a valid wpi email and has an account"  |
+| Exit condition(s)           | "login is verified"  |
+| Flow of events | "1. Student prompts software to login
+                    2. Student enters login credientials
+                    3. student submits login credentials
+                    4. software authenticates 
+                    5. student is logged in |
+| Alternative flow of events    | "credentials not valid, software flags error message"  |
+| Iteration #         | "1"  |
+
+| Use case # 4      |   |
+| ------------------ |--|
+| Name              | "view research positions"  |
+| Participating actor  | "student"  |
+| Entry condition(s)     | "student is logged into their account"  |
+| Exit condition(s)           | "all items are loaded"  |
+| Flow of events | "1. Student prompts software to enter research information 
+                    2. Software brings up items
+                    3. displays all information about the research positions0opl |
+| Alternative flow of events    | "no positions are avaliable and displays so"  |
+| Iteration #         | "1"  |
+
+| Use case # 5      |   |
+| ------------------ |--|
+| Name              | "view reseach positon details"  |
+| Participating actor  | "student"  |
+| Entry condition(s)     | "student is logged into their account"  |
+| Exit condition(s)           | "page is loaded and displays"  |
+| Flow of events | "1. Student prompts software to view a specific research position
+                    2. Software retrieves details
+                    3. software displays details"
+                    4. student views page |
+| Alternative flow of events    | "position removed, displays as so"  |
+| Iteration #         | "1"  |
+
+| Use case # 6      |   |
+| ------------------ |--|
+| Name              | "view reccomended position"  |
+| Participating actor  | "student"  |
+| Entry condition(s)     | "student is logged into their account"  |
+| Exit condition(s)           | "the personalized list is displayed"  |
+| Flow of events | "1. Student prompts software to view a reccomended positons
+                    2. Software retrieves details
+                    3. software displays details"
+                    4. student views page |
+| Alternative flow of events    | "no matches, displays as so"  |
+| Iteration #         | "2"  |
+
+| Use case # 7     |   |
+| ------------------ |--|
+| Name              | "apply for research position"  |
+| Participating actor  | "student"  |
+| Entry condition(s)     | "student is logged into their account"  |
+| Exit condition(s)           | "application is submitted"  |
+| Flow of events | "1. Student prompts software to apply
+                    2. Software displays form fields
+                    3. student fills out all fields"
+                    4. software validates fields 
+                    5. student submits forms |
+| Alternative flow of events    | "field filled out incorrectly, software flags error message
+                                   email is already in use, notifies the user with an error message"  |
+| Iteration #         | "2"  |
+
+| Use case # 8     |   |
+| ------------------ |--|
+| Name              | "view appolication status"  |
+| Participating actor  | "student"  |
+| Entry condition(s)     | "student is logged into their account and has submitted at least 1 application"  |
+| Exit condition(s)           | "page is viewed/exited"  |
+| Flow of events | "1. Student prompts software to see application statuses
+                    2. Software displays all applications and statuses 
+                    3. displays any updates |
+| Alternative flow of events    | "unable to find applications on account"  |
+| Iteration #         | "2"  |
+
+| Use case # 9     |   |
+| ------------------ |--|
+| Name              | "withdrawing application"  |
+| Participating actor  | "student"  |
+| Entry condition(s)     | "student is logged into their account and have a pending application"  |
+| Exit condition(s)           | "application is withdrawn"  |
+| Flow of events | "1. Student prompts software to open appilcations
+                    2. Student prompts software to withdraw specific application
+                    4. software withdraws application |
+| Alternative flow of events    | "application has been approved while button is still active, displays cannot withdraw"  |
+| Iteration #         | "2"  |
+
+
+| Use case # 10      |   |
+| ------------------ |--|
+| Name              | "submit faculty refrence"  |
+| Participating actor  | "student"  |
+| Entry condition(s)     | "student is logged into their account, is applying for a positon needing a refrence"  |
+| Exit condition(s)           | "application is submitted"  |
+| Flow of events | "1. Student prompts software to add refrence
+                    2. Software displays form fields
+                    3. student fills out all fields
+                    4. software validates fields 
+                    5. student submits forms |
+| Alternative flow of events    | "field filled out incorrectly, software flags error message
+                                   faculty not found, notifies the user with an error message"  |
+| Iteration #         | "2"  |
+
+
+FACULTY:
+|-------------------------------------------|
+
+| Use case # 11      |   |
+| ------------------ |--|
+| Name              | "create faculty account and profile"  |
+| Participating actor  | "faculty"  |
+| Entry condition(s)     | "faculty has a valid wpi email"  |
+| Exit condition(s)           | "profile is created"  |
+| Flow of events | "1. Faculty prompts software to create account
+                    2. Software brings up registration form
+                    3. Faculty fills out all fields
+                    4. software validates fields 
+                    5. Faculty submits forms |
+| Alternative flow of events    | "field filled out incorrectly, software flags error message
+                                   email is already in use, notifies the user with an error message"  |
+| Iteration #         | "1"  |
+
+| Use case # 12      |   |
+| ------------------ |--|
+| Name              | "verify faculty email"  |
+| Participating actor  | "faculty"  |
+| Entry condition(s)     | "profile creation is started"  |
+| Exit condition(s)           | "email is validated"  |
+| Flow of events | "1. Faculty validates email
+                    3. Software checks validation token 
+                    4. software displays validation sucessful |
+| Alternative flow of events    | "expired token, software flags error message"  |
+| Iteration #         | "1"  |
+
+| Use case # 13      |   |
+| ------------------ |--|
+| Name              | "faculty login"  |
+| Participating actor  | "faculty"  |
+| Entry condition(s)     | "faculty has a valid wpi email and has an account"  |
+| Exit condition(s)           | "login is verified"  |
+| Flow of events | "1. faculty prompts software to login
+                    2. faculty enters login credientials
+                    3. faculty submits login credentials
+                    4. software authenticates 
+                    5. faculty is logged in |
+| Alternative flow of events    | "credentials not valid, software flags error message"  |
+| Iteration #         | "1"  |
+
+| Use case # 14      |   |
+| ------------------ |--|
+| Name              | "View faculty profile"  |
+| Participating actor  | "faculty"  |
+| Entry condition(s)     | "faculty is logged in"  |
+| Exit condition(s)           | "profile is displayed"  |
+| Flow of events | "1. faculty prompts software to view profile
+                    2. software retrieves and displays profile data |
+| Alternative flow of events    | "profile cannot be found, software flags error message"  |
+| Iteration #         | "1"  |
+
+| Use case # 15      |   |
+| ------------------ |--|
+| Name              | "create research position"  |
+| Participating actor  | "faculty"  |
+| Entry condition(s)     | "faculty is logged in"  |
+| Exit condition(s)           | "research positon is created and published"  |
+| Flow of events | "1. faculty prompts software to create a research positon 
+                    2. Software brings up profile edit form
+                    3. faculty fills out neccessary fields"
+                    4. software validates fields 
+                    5. faculty submits forms |
+| Alternative flow of events    | "field information not valid, software flags error message"  |
+| Iteration #         | "1"  |
+
+| Use case # 16      |   |
+| ------------------ |--|
+| Name              | "define research position requirements"  |
+| Participating actor  | "faculty"  |
+| Entry condition(s)     | "faculty is logged in"  |
+| Exit condition(s)           | "research positon requiremnts is added to previous posted positon and published"  |
+| Flow of events | "1. faculty prompts software to define research positon requiments
+                    2. Software brings up profile edit form
+                    3. faculty fills out neccessary fields"
+                    4. software validates fields 
+                    5. faculty submits forms |
+| Alternative flow of events    | "field information not valid, software flags error message"  |
+| Iteration #         | "1"  |
+
+| Use case # 17      |   |
+| ------------------ |--|
+| Name              | "manage predefined list"  |
+| Participating actor  | "faculty"  |
+| Entry condition(s)     | "faculty is logged in"  |
+| Exit condition(s)           | "predefined lists and info updated"  |
+| Flow of events | "1. faculty prompts software to edit predefined lists
+                    2. Software brings up edit list
+                    3. faculty fills out neccessary fields"
+                    4. software validates fields 
+                    5. faculty submits forms |
+| Alternative flow of events    | "field information not valid, software flags error message"  |
+| Iteration #         | "2"  |
+
+| Use case # 18      |   |
+| ------------------ |--|
+| Name              | "view research positon applicants"  |
+| Participating actor  | "faculty"  |
+| Entry condition(s)     | "faculty is logged in"  |
+| Exit condition(s)           | "research positon applicants are displayed"  |
+| Flow of events | "1. faculty prompts software to show research positon application for different projects
+                    2. Software brings up list information of applicants |
+| Alternative flow of events    | "no applicants, software flags error message"  |
+| Iteration #         | "2"  |
+
+| Use case # 19      |   |
+| ------------------ |--|
+| Name              | "view applicant profile"  |
+| Participating actor  | "faculty"  |
+| Entry condition(s)     | "faculty is logged in"  |
+| Exit condition(s)           | "applicant profile is displayed"  |
+| Flow of events | "1. faculty prompts software to show research positon applicant
+                    2. Software brings up applicant profile with neccesary information"|
+| Alternative flow of events    | "applicant not found, software flags error message"  |
+| Iteration #         | "2"  |
+
+| Use case # 20      |   |
+| ------------------ |--|
+| Name              | "approve reseach positon applicant"  |
+| Participating actor  | "faculty"  |
+| Entry condition(s)     | "faculty is logged in and has applicants for positons"  |
+| Exit condition(s)           | "application updated to being approved"  |
+| Flow of events | "1. faculty prompts software to show research positon applicant
+                    2. Software brings up applicant profile with neccesary information"
+                    3. Faculty verifies applicant as appoved
+                    4. software submits that information and updates profile|
+| Alternative flow of events    | "applicant not found, software flags error message"  |
+| Iteration #         | "2"  |
+
+| Use case # 21      |   |
+| ------------------ |--|
+| Name              | "reject reseach positon applicant"  |
+| Participating actor  | "faculty"  |
+| Entry condition(s)     | "faculty is logged in and has applicants for positons"  |
+| Exit condition(s)           | "application updated to being rejected"  |
+| Flow of events | "1. faculty prompts software to show research positon applicant
+                    2. Software brings up applicant profile with neccesary information"
+                    3. Faculty verifies applicant as rejected
+                    4. software submits that information and updates profile|
+| Alternative flow of events    | "applicant not found, software flags error message"  |
+| Iteration #         | "2"  |
+
+| Use case # 20      |   |
+| ------------------ |--|
+| Name              | "manage reccomendation requests"  |
+| Participating actor  | "faculty"  |
+| Entry condition(s)     | "faculty is logged in"  |
+| Exit condition(s)           | "updates reccomendation status"  |
+| Flow of events | "1. faculty prompts software to show research positon reccomendations
+                    2. Software brings up applicant profiles with neccesary information"
+                    3. Faculty approves or rejects reccomendation
+                    4. software submits that information and updates profile|
+| Alternative flow of events    | "no reccomended applicants, displays so"  |
+| Iteration #         | "2"  |
+
 
 ----
 # 3. User Interface
