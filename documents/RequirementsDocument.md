@@ -1,6 +1,6 @@
 # Software Requirements and Use Cases
 
-## Your Project Title
+## ConnectResearch
 --------
 Prepared by:
 
@@ -60,6 +60,7 @@ The application should feature two main sections—a Student Page and a Faculty 
 offering customized options for creating profiles, posting opportunities, and managing
 applications.
 
+----
 ## 2.1 Customer, Users, and Stakeholders
 
 A brief description of the customer, stakeholders, and users of your software.
@@ -96,12 +97,8 @@ Faculty:
 11. As a faculty member, I want to approve student applications so that I can recruit students for the position.
 12. As a faculty member, I want to reject student applications so that I can filter out unqualified or mismatched candidates.
 
-
-
-
-
 ----
-## 2.3 Use Cases -Mcalister
+## 2.3 Use Cases
 
 This section will include the specification for your project in the form of use cases. 
 
@@ -429,7 +426,7 @@ FACULTY:
 
 
 ----
-# 3. User Interface -
+# 3. User Interface
 
 Here you should include the sketches or mockups for the main parts of the interface.
 You may use Figma to design your interface:
@@ -451,7 +448,7 @@ You may use Figma to design your interface:
   </kbd>
   
 ----
-# 4. Product Backlog - Jake
+# 4. Product Backlog
 
 Here you should include a link to your GitHub repo issues page, i.e., your product backlog. Make sure to create an issue for each user story.
 
@@ -469,27 +466,3 @@ For the papers you cite give the authors, the title of the article, the journal 
 For the websites, give the title, author (if applicable) and the website URL.
 
 ----
-----
-# Appendix: Grading Rubric
-(Please remove this part in your final submission)
-
-These is the grading rubric that we will use to evaluate your document. 
-
-| Max Points  | **Content** |
-| ----------- | ------- |
-| 4          | Do the requirements clearly state the customers’ needs? |
-| 2          | Do the requirements avoid specifying a design (note: customer-specified design elements are allowed)? |
-| | |  
-|    | **Completeness** |
-| 14 | Are user stories complete? Are all major user stories included in the document?  |
-| 5 | Are user stories written in correct form? | 
-| 14 |  Are all major use cases (except registeration and login) included in the document? |
-| 15 | Are use cases written in sufficient detail to allow for design and planning? Are the "flow of events" in use case descriptions written in the form of "user actions and system responses to those"? Are alternate flow of events provided (when applicable)? | 
-| 6 |  Are the User Interface Requirements given with some detail? Are there some sketches, mockups?  |
-| | |  
-|   | **Clarity** |
-| 5 | Is the document carefully written, without typos and grammatical errors? <br> Is each part of the document in agreement with all other parts? <br> Are all items clear and not ambiguous? |
-| | |
-|**65**|**TOTAL**|
-
-
