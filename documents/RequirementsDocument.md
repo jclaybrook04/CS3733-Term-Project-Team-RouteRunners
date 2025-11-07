@@ -140,8 +140,7 @@ You may use the following table template for your use cases. Copy-paste this tab
                     3. student fills out all fields
                     4. software validates fields 
                     5. student submits forms" |
-| Alternative flow of events    | "field filled out incorrectly, software flags error message
-                                   email is already in use, notifies the user with an error message"  |
+| Alternative flow of events    | "field filled out incorrectly, software flags error message email is already in use, notifies the user with an error message"  |
 | Iteration #         | "1"  |
 
 | Use case # 2      |   |
